@@ -27,7 +27,7 @@ class ApplicationController < Sinatra::Base
 
   get '/sessions/login' do
     
-    erb :sessions/login
+    erb :'sessions/login'
   end
 
   post '/sessions' do
